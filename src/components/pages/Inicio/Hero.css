@@ -1,0 +1,19 @@
+.Hero-container {
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center 70%;
+    margin-bottom: 1.5rem;
+}
+
+.Hero-button {
+    font-weight: 500;
+    background-color: #003da5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+    .Hero-button:hover {
+        background-color: #00348d;
+    }

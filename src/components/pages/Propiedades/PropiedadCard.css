@@ -1,0 +1,18 @@
+.PropiedadCard {
+    height: 340px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 0.2rem;
+    font-family: Rubik;
+    transition: 0.3s;
+}
+    .PropiedadCard:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+.PropiedadCard-imagen {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 0.5px solid rgb(224, 224, 224);
+}
